@@ -10,7 +10,7 @@ const starts = () => {
 };
 task.on("greet", starts); //event and method binding
 task.on("greet", sayHi);
-task.on(greet",(nsme))
+task.on("greet",(name))
 
 task.emit("greet", "Anil Pandey"); //announcement
 
