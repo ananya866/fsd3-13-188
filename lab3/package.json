@@ -4,8 +4,8 @@
   "description": "",
   "main": "prg1.js",
   "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" :"node app.js",
+   "dev" :"nodemon prg4.js",
 
   },
   "keywords": [],
