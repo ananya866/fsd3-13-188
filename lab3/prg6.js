@@ -38,7 +38,7 @@ const server = http.createServer((req, res) => {
       res.statusCode = 200;
       res.end(JSON.stringify({ msg: "product updated", product }));
     });
-  } else if (req.url === "/" && req.method === "DELETE") {
+  } else if (req.url === "api/v1/products" && req.method === "DELETE") {
     res.statusCode = 200;
     res.end("DELETE Request");
   } else {
