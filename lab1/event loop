@@ -37,4 +37,3 @@ const main = () => {
 
 main();
 
-event loop
