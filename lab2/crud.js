@@ -47,11 +47,11 @@ const main = async () => {
 
   do {
     console.log("Welcome to shopping cart 🛍️ ");
-    console.log("1   Add to cart");
-    console.log("2   show cart");
-    console.log("3   Remove item");
-    console.log("4   update quantity");
-    console.log("5   checkout");
+    console.log("1.  Add to cart");
+    console.log("2.  show cart");
+    console.log("3. Remove item");
+    console.log("4. update quantity");
+    console.log("5. checkout");
 
     choice = await cin.question("Enter your choice :");
     console.log("Entered choice:", choice);
