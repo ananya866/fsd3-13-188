@@ -6,10 +6,10 @@ const app = express();
 const fileName = fileURLToPath(import.meta.url);
 const dirname = path.dirname(fileName);
 app.get("/", (req, res) => {
-  res.sendFile(path.join(dirname, "public", "index.html"));
+  res.sendFile(path.join(dirname, "htmlpages", "index.html"));
 });
 app.get("/about", (req, res) => {
-  res.sendFile(path.join(dirname, "public", "about.html"));
+  res.sendFile(path.join(dirname, "htmlpages", "about.html"));
 });
 
 app.use((req, res) => {
