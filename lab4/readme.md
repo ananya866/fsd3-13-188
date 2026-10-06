@@ -16,4 +16,17 @@
 # send
  - send function is use to revent back content to the client,it may be html,json,html file,plain file .we can also add status code with status function,it can be chain with send function 
 
-- 
+# map
+- this function is used to iterated any array.it must return new array.
+```
+array.map((item)=>{
+
+})
+array.map((item)=>())
+```
+- in first synatax we have to use explicit return keyword wher as in syntax 2 does not require.
+- exclude number of property from any json abject.
+````
+const {p1,p2,....rest} = product;
+# search
+- to search any item in json array we use "find" method.it will return null on unsuccessfull or object on successfull.
